@@ -11,7 +11,9 @@
             "program": "${workspaceRoot}\\node_modules\\ts-node\\dist\\_bin.js",
             "args": [
                 "${workspaceRoot}\\main.ts"
-            ]
+            ],
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector"
         }
     ]
 }
