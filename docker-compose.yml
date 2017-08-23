@@ -1,0 +1,8 @@
+version: '3'
+services:
+  scraper:
+    build: .
+    depends_on:
+     - crossbar
+  crossbar:
+    image: "crossbario/crossbar:cpy3"

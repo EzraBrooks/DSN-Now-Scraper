@@ -6,9 +6,11 @@
     "start": "ts-node main.ts"
   },
   "dependencies": {
+    "@types/autobahn": "^0.9.36",
     "@types/node": "^8.0.24",
     "@types/request-promise-native": "^1.0.6",
     "@types/xml2js": "^0.4.0",
+    "autobahn": "^17.5.2",
     "request": "^2.81.0",
     "request-promise-native": "^1.0.4",
     "ts-node": "^3.3.0",
